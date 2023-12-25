@@ -1,0 +1,49 @@
+#MainWindow{
+    background-color: black;
+}
+#centralwidget{
+    position: static;
+    background: url(baclground.jpg.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 15px;
+    margin-left: 4px;
+    margin-right: 4px;
+  
+    border: 3px solid black;
+}
+#tableWidget{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#label{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+#voter_id_line_edit{
+    padding: 4px 30px 4px 10px;
+}
+#pushButton{
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: white;
+}
+#pushButton:hover{
+    background-color: black;
+    color: white;
+}
+#open_file_button{
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+#open_file_button:hover{
+    background-color: black;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    
+}
